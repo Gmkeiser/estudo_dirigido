@@ -1,0 +1,53 @@
+1<?php 
+	print"digite uma medida em metros";
+	$metros = (int) fgets(STDIN)
+	
+	$centimetros = $metros/100
+	
+	print"medida em cm = $centimetros"
+
+2<?php
+	print"digite um tempo em dias";
+	$dias = (int) fgets(STDIN)
+	print"digite  um tempo em horas";
+	$horas = (int) fgets(STDIN)
+	print"digite um tempo em minutos";
+	$minutos = (int) fgets(STDIN)
+	print"digite um tempo em segundos";
+	$segundos1
+	
+	$segundosR1 = $dias*24*60*60
+	$segundosR2 = $horas*60*60
+	$segundosR3 = $minutos*60
+	$segundosR4 = $segundosR1+$segundosR2+$segundosR3+$segundos1
+
+	print"tempo em segundos = $segundosR4
+
+3<?php
+	print"salario anterior"
+	$sa = (int) fgets(STDIN)
+	print"salario atual"
+	$sb = (int) fgets(STDIN)
+
+	$aumento = $sb*100
+	$aumento1 = $aumento /$sa
+	
+	print"$aumento1" 
+
+4<?php
+	print"preço"
+	$preço = (int) fgets(STDIN)
+	print"desconto"
+	$desconto = (int) fgets(STDIN)
+	
+	$Resultado = $preço*$desconto/100
+ print"valor descontado $resultado"
+
+5<?php 
+ print"distancia"
+$distancia = (int) fgets(STDIN)
+ print"velocidade media"
+$vm
+
+$tempo = $distancia / $vm
+print"tempo necessario $tempo"
